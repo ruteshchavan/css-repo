@@ -1,0 +1,14 @@
+#var{
+    height: 60px;
+    background-color: rgb(216, 203, 203);
+}
+
+#val1 {
+    font-size: 25px;
+    color: blue;
+    padding-left: 5px;
+}
+
+a{
+    margin-right: 200px;
+}

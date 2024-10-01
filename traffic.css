@@ -1,0 +1,32 @@
+#x{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 10px;
+    
+}
+
+#y{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(229, 229, 17);
+    margin: 10px;
+}
+
+#z{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 10px;
+}
+
+#var{
+    height: 400px;
+    width: 120px;
+    background-color: black;
+    border: 3px solid red;
+    
+}
