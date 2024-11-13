@@ -1,0 +1,91 @@
+/* 
+border-style - property specifies what kind of border to display.
+
+border-width - property specifies the width of the four borders.
+The width can be set as a specific size (in px, pt, cm, em, etc) or 
+by using one of the three pre-defined values: thin, medium, or thick.
+
+border-color - property is used to set the color of the four borders.
+
+border-radius - property is used to add rounded borders to an element.
+
+Border - Shorthand Property :
+border property is a shorthand property for the following individual border properties:
+border-width
+border-style
+border-color
+example : 
+p {
+  border-left: 6px solid red;
+}
+
+CSS margin properties are used to create space around elements, outside of any defined borders.
+margin property is a shorthand property for the following individual margin properties:
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+padding properties are used to generate space around an element's content, inside of any defined borders.
+CSS has properties for specifying the padding for each side of an element:
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+height and width properties are used to set the height and width of an element.
+height and width properties may have the following values:
+auto - This is default. The browser calculates the height and width
+length - Defines the height/width in px, cm, etc.
+% - Defines the height/width in percent of the containing block
+initial - Sets the height/width to its default value
+inherit - The height/width will be inherited from its parent value
+
+*/
+p{
+    border-color: red;
+    border-radius: 5px;
+    margin: 25px ;
+    padding: 15px;
+    height: 50%;
+    width: 50%;
+    background-color: aqua;
+}
+
+p.dotted {
+    border-style: dotted;
+    border-width: 5px;
+}
+p.dashed {
+    border-style: dashed;
+    border-width: medium;
+}
+p.solid {
+    border-style: solid;
+    border-width: thick;
+}
+p.double {
+    border-style: double;
+}
+p.groove {
+    border-style: groove;
+    border-width: 8px;
+}
+p.ridge {
+    border-style: ridge;
+}
+p.inset {
+    border-style: inset;
+}
+p.outset {
+    border-style: outset;
+}
+p.none {
+    border-style: none;
+}
+p.hidden {
+    border-style: hidden;
+}
+p.mix {
+    border-style: dotted dashed solid double;
+}

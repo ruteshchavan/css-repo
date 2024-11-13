@@ -9,7 +9,19 @@ background-image : property specifies an image to use as the background of an el
 background-position : property is used to specify the position of the background image.
 
 background-attachment : property specifies whether the background image 
-should scroll or be fixed (will not scroll with the rest of the page):
+should scroll or be fixed (will not scroll with the rest of the page).
+
+CSS background - Shorthand property:
+When using the shorthand property the order of the property values is:
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+example :
+body {
+  background: red url("img_tree.png") no-repeat left top;
+}
 */
 
 h1{
