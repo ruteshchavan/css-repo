@@ -1,0 +1,65 @@
+/* 
+color : property is used to set the color of the text.
+
+background-color : property is used to set the bg color of the element. 
+
+text-decoration-line : property is used to add a decoration line to text.
+
+text-decoration-color : property is used to set the color of the decoration line.
+
+text-decoration-style : property is used to set the style of the decoration line.
+
+text-transform property : is used to specify uppercase and lowercase letters in a text.
+
+letter-spacing property : is used to specify the space between the characters in a text.
+
+word-spacing : property is used to specify the space between the words in a text.
+
+text-shadow : property adds shadow to text.
+In its simplest use, you only specify the horizontal shadow (x px) and the vertical shadow (y px):
+
+*/
+
+h1{
+    background-color: rgb(16, 213, 213);
+    color: black;
+    text-align: center;
+    
+}
+
+#a{
+    text-decoration: line-through;
+    text-decoration-color: brown; 
+   
+}
+
+#b{
+    text-decoration: underline;
+    text-decoration-color: brown; 
+    text-decoration-style: double;
+}
+
+#c{
+    text-decoration-color: brown; 
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgb(237, 149, 149), 2px 2px 5px rgb(36, 36, 142);
+}
+
+#d{
+    letter-spacing: 10px;
+    text-shadow: 10px 10px 3px #cb4141;
+}
+
+#e{
+   
+    text-transform: capitalize;
+    letter-spacing: -3px;
+}
+
+#f{
+    
+        word-spacing: 15px;
+}
+
+
+
