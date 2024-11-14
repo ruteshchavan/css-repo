@@ -28,5 +28,7 @@
     width: 120px;
     background-color: black;
     border: 3px solid red;
-    
+    margin-left: 500px;
+    margin-top: 150px;
+    border-radius: 30px;
 }
