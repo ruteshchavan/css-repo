@@ -1,0 +1,53 @@
+/* 
+position - property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+There are five different position values:
+static
+relative
+fixed
+absolute
+sticky
+
+position: static;
+HTML elements are positioned static by default.
+
+position: relative;
+An element with position: relative; is positioned relative to its normal position.
+
+position: absolute;
+An element with position: absolute; is positioned relative to the nearest positioned ancestor 
+(instead of positioned relative to the viewport, like fixed).
+Absolute positioned elements are removed from the normal flow, and can overlap elements.
+
+
+*/
+
+div{
+    border: 2px solid black;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+#a1{
+    position: fixed;
+    top: 180px;
+}
+
+#a2{
+    position:absolute ;
+    right: 0;
+    top: 120px;
+}
+
+#a3{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+#a4{
+    position: relative;
+    top: 150px;
+    left: 30px;
+}
